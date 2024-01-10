@@ -130,3 +130,71 @@ Represents a value that is not a number and is the result of an undefined or unr
 let results = "abc" / 2;  // NaN
 ```
 
+### Arithmetic Operators
+
+#### Addition
+```js
+let sum = 5 + 4;  // 9
+```
+
+#### Subtraction
+```js
+let diff = 5 - 4;  // 1
+```
+
+#### Multiplication
+```js
+let product = 5 * 4;  // 20
+```
+
+#### Division
+
+```js
+let result = 8 / 4; // 2
+```
+
+#### Modulus
+Gives you the remainder of a division
+
+```js
+let restOne = 8 % 4;  // 0
+let rest = 8 % 3;  // 2
+```
+
+#### Increment
+
+```js
+let counter = 2;
+counter++;  // 3
+```
+
+#### Decrement
+
+```js
+let counter = 2;
+counter--;  // 1
+```
+
+### Assignment Operators
+It's a combinations of assignment and some sort of calculation.
+
+``` js
+let counter = 4;
+counter += 5;  // 9
+```
+
+#### Subtraction Assignment
+ ```js
+ let counter = 4;
+ counter *= 3; // 12
+ ```
+
+#### Division Assignment
+
+```js
+let counter = 4;
+counter /= 2;  // 2
+```
+
+
+

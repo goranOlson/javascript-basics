@@ -18,3 +18,8 @@ console.log(hiThere);
 var my_name = 'John';
 var s = `hello ${my_name}, how are you doing`;
 console.log(s);
+
+let counter = 2;
+counter++;  // 3
+counter += 1;  // 4
+console.log(counter);

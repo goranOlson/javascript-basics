@@ -93,14 +93,40 @@ Now lets look at injections inside a string.
 const firstName = "Tom";
 const lastName = "Top";
 
-const hiThere = `Hi $(firstName) $(lastName)`;
+const hiThere = `Hi ${firstName} ${lastName}`;
 ```
 
 #### Boolean
 Represents true or false value.
 
 ```js
-
+let isStudent = true;
+let hasTalent = false;
 ```
 
+#### Null
+Represent the intentional absence of any value. 
+
+```js 
+let noValue = null;
+
+console.log(noValue);  // null
+console.log(typeof noValue);  // Object - warning!
+```
+
+#### Undefined
+Represents a variable that has been declared but not assigned a value.
+
+```js
+let name;
+
+console.log(name);  // undefined
+```
+
+#### NaN - Not a Number
+Represents a value that is not a number and is the result of an undefined or unrepresentable mathematical operation.
+
+```js
+let results = "abc" / 2;  // NaN
+```
 

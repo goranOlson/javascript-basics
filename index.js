@@ -10,7 +10,11 @@ console.log(number);
 
 const firstName = "Tom";
 const lastName = "Top";
-const hiThere = `Hi $(firstName) $(lastName)`;
+const hiThere = `Hi ${firstName} ${lastName}`;
 
 
 console.log(hiThere);
+
+var my_name = 'John';
+var s = `hello ${my_name}, how are you doing`;
+console.log(s);
